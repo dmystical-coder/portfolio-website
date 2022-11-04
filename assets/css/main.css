@@ -48,6 +48,7 @@ img{
   width: 100%;
 }
 
+
 /* background color divs */
 
 .section-plum {
@@ -70,25 +71,26 @@ img{
 
 #intro {
   padding: 4rem 2rem 10rem;
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .name span {
   font-family: var(--sans);
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: var(--aqua);
   display: block;
   font-weight: 300;
 }
 
 #intro h2 {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 /* projects section */
 
 #projects{
+  width: 100%;
   padding: 4rem 2rem;
 }
 
@@ -136,6 +138,9 @@ img{
 }
 
 @media (min-width: 550px){
+  .name span, #intro h2{
+    font-size: 3rem;
+  }
   article{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -172,10 +177,10 @@ img{
 /* contact section */
 
 #contact {
-  width: 400px;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 3rem 2rem;
 }
 
 #contact p:last-child {
@@ -241,6 +246,9 @@ nav [class*="fa-"]:hover {
   background-color: var(--hotmag);
 }
 @media (min-width: 850px) {
+  .name span, #intro h2{
+    font-size: 4rem;
+  }
   nav {
     max-width: 1200px;
     margin: 0 auto;
