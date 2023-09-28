@@ -54,6 +54,17 @@ img{
   width: 100%;
 }
 
+nav ul li h1>a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav ul li h1>a img{
+  width: 20%;
+}
+
 
 /* background color divs */
 
